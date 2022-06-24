@@ -2,6 +2,7 @@
 This repository is the official PyTorch Implementation of [Learning Fair Representation via Distributional Contrastive Disentanglement](https://arxiv.org/abs/2206.08743) (KDD 2022)
 
 
+
 ## Abstract
 <img align="middle" width="100%" src="FarconVAE.png">
 
@@ -12,8 +13,25 @@ Learning fair representation is crucial for achieving fairness or debiasing sens
 * We provide new distributional contrastive losses for disentanglement motivated by the Gaussian and Student-t kernels.
 * The proposed method is theoretically analyzed and empirically demonstrated on a broad range of data types (tabular, image, and text) and tasks, including fairness and domain generalization
 
+
+## Prepare your environment
+```
+conda create -n farcon python=3.8
+conda activate farcon 
+conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
+pip install datetime
+git clone https://github.com/changdaeoh/FarconVAE.git
+cd FarconVAE
+```
+
+## Run
+To reproduce fair classification task, now you can run FarconVAE with `run_xxx.sh`:
+```
+sh run_yaleb.sh
+```
+
 ## Citation
 
 ```
-cite
+
 ```
