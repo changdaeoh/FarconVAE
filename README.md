@@ -33,5 +33,10 @@ sh run_yaleb.sh
 ## Citation
 
 ```
-
+@article{oh2022learning,
+  title={Learning Fair Representation via Distributional Contrastive Disentanglement},
+  author={Oh, Changdae and Won, Heeji and So, Junhyuk and Kim, Taero and Kim, Yewon and Choi, Hosik and Song, Kyungwoo},
+  journal={arXiv preprint arXiv:2206.08743},
+  year={2022}
+}
 ```
